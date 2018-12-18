@@ -1,0 +1,12 @@
+int a[]={1,2,3,4};
+	int ss=(1<<4)-1;
+	for(int i=1;i<=ss;i++)
+	{
+		int j=1;
+		int k=0;
+		while(k < 4){
+		if ((j<<k)&i) cout<<" "<<a[k];
+		k++;
+		}
+		cout<<endl;
+	}
